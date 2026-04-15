@@ -42,4 +42,4 @@ console.log(texto2.includes("huevos")); //true
 let numero = 9993003990;
 let telefono_texto = String(numero);
 console.log(`Mi numero de telefono: ${telefono_texto}
-    es de tipo; ${typeof telefono_texto}`);
+    es de tipo; tiene ${typeof telefono_texto} letras`);

@@ -65,8 +65,9 @@ console.log(`${compras.toLocaleUpperCase()} "tiene ${compras.length} caracteres"
 // Indicar su tipo de dato
 // Indicar cuántos caracteres tiene
 let numeroCasa = "456"
-let numeroCasaTexto = 
-console.log
+let numeroCasaTexto = String(numeroCasa);
+console.log(`Mi numero de casa: ${numeroCasa}
+    es de tipo; ${typeof numeroCasa} tiene ${numeroCasa.length} letras`);
 // 7️⃣ Identificación personal extendida
 // Crea las variables:
 // nombre: Diego
@@ -75,7 +76,9 @@ console.log
 // Muestre el nombre completo
 // Indique cuántos caracteres tiene el nombre completo (incluyendo espacio)
 // Muestre todo en MAYÚSCULAS
-
+let nombre1 = "Diego"
+let apellido1 = "Rojas"
+console.log(`el nombre: ${nombre1.toUpperCase() + " " + apellido1.toUpperCase()} tiene ${nombre1.length + apellido1.length} caracteres.`);
 // 8️⃣ Verificación de contenido
 // Crea la variable:
 // frase: Hoy aprenderemos sobre strings
