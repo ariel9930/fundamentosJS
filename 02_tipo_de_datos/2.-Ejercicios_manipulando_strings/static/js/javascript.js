@@ -22,6 +22,7 @@ console.log("Hola, mi nombre es: " + nombre + " y tengo " + edad + " años.");
 // Indique dónde vive la persona
 // Muestre la comuna en MAYÚSCULAS
 // Muestre la región en minúsculas
+
 const comuna = "maipú"
 const region = "metropolitana"
 console.log("Vivo en la comuna de " + comuna.toLocaleUpperCase() + " de la region " + region.toLocaleLowerCase());
@@ -34,6 +35,7 @@ console.log("Vivo en la comuna de " + comuna.toLocaleUpperCase() + " de la regio
 // Indique cuántos caracteres tiene
 // Muestre la palabra en MAYÚSCULAS
 // Indique el tipo de dato
+
 let lenguaje = "Python"
 console.log(`La palabra "${lenguaje.toLocaleUpperCase()}" tiene ${lenguaje.length} caracteres.`);
 
@@ -44,6 +46,7 @@ console.log(`La palabra "${lenguaje.toLocaleUpperCase()}" tiene ${lenguaje.lengt
 // Indique la cantidad de caracteres
 // Verifique si contiene la palabra "JavaScript"
 // Muestre el mensaje completo en minúsculas
+
 let mensaje = "Me encanta programar en JavaScript"
 console.log(`la frase "${mensaje.toLocaleLowerCase()}" tiene ${mensaje.length} caracteres y contiene "javascript": ${mensaje.toLocaleLowerCase().includes("javascript")}`);
 // 5️⃣ Lista con búsqueda y transformación
@@ -53,6 +56,7 @@ console.log(`la frase "${mensaje.toLocaleLowerCase()}" tiene ${mensaje.length} c
 // Si existe la palabra "aceite"
 // El texto completo en MAYÚSCULAS
 // La cantidad total de caracteres
+
 let compras = "arroz, fideos, aceite, sal"
 console.log(`${compras.toLocaleUpperCase()} "tiene ${compras.length} caracteres" y tiene la palabra aceite? ${compras.includes("aceite")}`);
 // 6️⃣ Conversión + análisis
@@ -64,6 +68,7 @@ console.log(`${compras.toLocaleUpperCase()} "tiene ${compras.length} caracteres"
 // Mostrar el número convertido
 // Indicar su tipo de dato
 // Indicar cuántos caracteres tiene
+
 let numeroCasa = "456"
 let numeroCasaTexto = String(numeroCasa);
 console.log(`Mi numero de casa: ${numeroCasa}
@@ -76,6 +81,7 @@ console.log(`Mi numero de casa: ${numeroCasa}
 // Muestre el nombre completo
 // Indique cuántos caracteres tiene el nombre completo (incluyendo espacio)
 // Muestre todo en MAYÚSCULAS
+
 let nombre1 = "Diego"
 let apellido1 = "Rojas"
 console.log(`el nombre: ${nombre1.toUpperCase() + " " + apellido1.toUpperCase()} tiene ${nombre1.length + apellido1.length} caracteres.`);
@@ -87,6 +93,12 @@ console.log(`el nombre: ${nombre1.toUpperCase() + " " + apellido1.toUpperCase()}
 // La frase en MAYÚSCULAS
 // La cantidad de caracteres
 
+let frase = "Hoy aprenderemos sobre strings"
+console.log(`La frase ${frase} contiene la palabra "stringhs"
+    ${frase.includes("strings")}`);
+    console.log(`${frase.toUpperCase()} - Tiene ${frase.length} caracteres.`);
+
+
 // 9️⃣ Comparación de formatos
 // Crea la variable:
 // texto: Programar es divertido
@@ -96,6 +108,12 @@ console.log(`el nombre: ${nombre1.toUpperCase() + " " + apellido1.toUpperCase()}
 // El texto en mayúsculas
 // La cantidad de caracteres
 
+let texto = "Programar es divertido"
+console.log(` Texto original${texto}
+    \ntexto en minusculas: ${texto.toLowerCase()}
+    \ntexto en mayuscula: ${texto.toUpperCase()}
+    \nEl texto tiene: ${texto.length} caracteres`);
+    
 // 🔟 Desafío completo integrado
 // Crea las variables:
 // curso: 4C
@@ -105,3 +123,10 @@ console.log(`el nombre: ${nombre1.toUpperCase() + " " + apellido1.toUpperCase()}
 // Convierta el año a texto
 // Indique el tipo de dato del año convertido
 // Muestre todo el mensaje en MAYÚSCULAS
+let curso = "4C";
+let anio = "2026";
+let anioTexto = String(anio); // anio a texto
+
+console.log(` Curso ${curso} del año ${anioTexto}
+    \nAño es de tipo: ${typeof anioTexto}` .toUpperCase());
+    
