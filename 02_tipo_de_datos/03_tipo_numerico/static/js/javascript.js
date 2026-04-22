@@ -14,12 +14,12 @@ let suma = 10 + 5; //15
 let resta = 10 - 5; //5
 let multiplicacion = 10 * 5; //50
 let division = 10 / 2; //5
-let modulo = 10 % 3; //1
+let modulo = 10 % 3; //1 ---> Resto de la division %
 let potencia = 2 ** 3; //8
 
 console.log(` El resultado de:2 elevado a 3 en potencia es: ${2 ** 3}`)
 
-//3.- Incredemento y decremento (suma(++) o resta (resta(--)
+//3.- Incremento y decremento (suma(++) o resta (resta(--)
 let numero = 10;
 numero++; //11
 numero--; //9
@@ -50,3 +50,16 @@ console.log("El sueldo base es:" + sueldo);
 console.log("Redondeando 4.6") + Math.round(4.6); //5
 console.log("Redondeando 4.6") + Math.floor(4.6); //5
 
+
+//8.- Números aleatorios
+let aleatorio = Math.random(); //  crea variables entre 0 y 1
+let dado = Math.floor(Math.random()*6) + 1; // entre el 1 al 6
+console.log(`Tirar dados: ${dado}`);
+
+//9.- Comparaciones numéricas
+let a = 10;
+let b = 5;
+console.log(a > b); //True
+console.log(a < b); //False
+console.log(a === 10); //True (=== estricta igualdad)
+console.log(b === 3);  //False
