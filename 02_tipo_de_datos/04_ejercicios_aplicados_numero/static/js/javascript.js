@@ -116,7 +116,8 @@ function potenciaCalculocombinado(){
 // Indica si el número es mayor o igual a 4 (gana) o menor (pierde)
 
 function dadoAleatorio(){
-    let dado1 = 1
-    let dado2 = 2
-    alert(`Si lanzamos un dado `)
-}
+    let dado = Math.floor(Math.random()*5) + 1;
+    alert(`Tenemos un dado de 6 caras y haz tirado este.
+        \nTiras el numero: ${dado}
+        \nSi tu numero es mayor a 3 ganas, ganaste? ${dado > 3}`);
+};
