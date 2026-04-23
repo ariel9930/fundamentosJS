@@ -75,7 +75,3 @@ console.log(`El numero: ${num} es distinto que ${num2}`);
 } else{
     console.log("Son iguales!");
 }
-
-{
-console.log("I hate niggers")
-}
