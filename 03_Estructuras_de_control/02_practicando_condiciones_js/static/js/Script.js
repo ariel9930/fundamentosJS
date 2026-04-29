@@ -81,11 +81,10 @@ alert(`Edad es: ${edad}
 
 function ejercicio7() {
 let num = 6
-let resto = num%2
-if (resto = 1) {
-    alert(`El numero ${num} es par`);
+if (num % 2==0) {
+    alert(`El numero es par`);
 } else {
-   alert(`El numero ${num} es impar`);
+   alert(`El numero es impar`);
 }
 }
 // EJERCICIO 8
@@ -94,11 +93,12 @@ if (resto = 1) {
 
 function ejercicio8(){
     let nota = 6.7
+
     if (nota >= 4.0) {
         alert(`La nota es: ${nota} 
             \nestudiante aprobado`);
     } else if(nota <= 4.0){
-        alert(`Estudante reprobado`)
+        alert(`Estudante reprobado`);
     }
 }
 
