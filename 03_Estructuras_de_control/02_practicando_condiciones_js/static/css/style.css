@@ -1,4 +1,12 @@
+*{
+    font-family: cursive;
+    background-color: rgb(150, 79, 79);
+    color: rgb(110, 11, 11);
+}
 
+.encabezado{
+background-color: rgba(109, 69, 69, 0.582);
+}
 .btn{
-    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.753);
+    box-shadow: 5px 5px 5px rgba(138, 47, 47, 0.925);
 }

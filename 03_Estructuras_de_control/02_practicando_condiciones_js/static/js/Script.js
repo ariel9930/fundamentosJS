@@ -3,7 +3,7 @@ console.log("Conexion exitosa con JS...")
 // "Bienvenido Juan"
 
 function ejercicio1() {
-    let saludo = "Bienvenido Estefano"
+    let saludo = "Bienvenido Ariel"
     alert(`${saludo}`);
 }
 
