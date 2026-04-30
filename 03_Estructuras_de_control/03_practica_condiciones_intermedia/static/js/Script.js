@@ -78,3 +78,51 @@ if (precio >= 50000) {
 }
 
 }
+
+function ejercicio16(){
+let precio = 100000
+let producto = "ram"
+let nombre = "Alan ronaldo"
+if (precio >= 100000) {
+    alert(`${nombre.toUpperCase()} ah comprado una ram de 16GB
+        \nPrecio original : ${precio} 
+        \nEl producto ${producto.toLowerCase()} tiene un precio final de: ${precio*0.8} un 20% de descuento: cliente premium`);
+} else if (precio >= 50000) {
+    alert(`El producto ${producto.toLowerCase()} tiene un precio final de: ${precio*0.9} un 10% de descuento: cliente frecuente`);
+} else{
+   alert(`El producto ${producto.toLowerCase()} tiene un precio final de: ${precio} sin descuento: cliente normal`); 
+}
+}
+function ejercicio17(){
+    let frase = "CAPUCHINO PRESENTINO"
+    let puntaje = 90
+if (puntaje>=90) {
+        alert(`la frase ${frase.toLowerCase()} tiene ${frase.length} caracteres
+    \ny tiene un puntaje de ${puntaje} por lo cual su calificacion es excelente`);
+} else if (puntaje>=70) {
+        alert(`la frase ${frase.toLowerCase()} tiene ${frase.length} caracteres
+    \ny tiene un puntaje de ${puntaje} por lo cual su calificacion es buena`);
+} else{
+        alert(`la frase ${frase.toLowerCase()} tiene ${frase.length} caracteres
+    \ny tiene un puntaje de ${puntaje} por lo cual su calificacion es insuficiente`);
+}
+}
+function ejercicio18(){
+    let nombre = "tititisahur"
+    let nota = 5.0
+    let nota1 = 4.0
+    let nota2 = 3.0
+    let promedio = (nota + nota1 + nota2) / 3
+if (nota>=6.0) {
+    alert(`El estudiante ${nombre.toUpperCase()} saco un promedio de ${promedio}
+    \npor lo cual destacado`);
+} else if (nota>=4.0) {
+     alert(`El estudiante ${nombre.toUpperCase()} saco un promedio de ${promedio}
+    \npor lo cual es aprobado `);
+}
+   else{
+     alert(`El estudiante ${nombre.toUpperCase()} saco un promedio de ${promedio}
+    \npor lo cual es reprobado `);
+} 
+}
+
