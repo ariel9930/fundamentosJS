@@ -237,5 +237,5 @@ else{
 // ≤ 10 → Corta
 
 function ejercicio21(){
-
+    
 }
